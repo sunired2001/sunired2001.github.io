@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  .navbar-default {
+    background-color: #FFFFFF;
+    color: #ffffff;
+   }
+   .navbar-header {
+    
+    
+    background-color: #00FFFF;
+    color: #FFFFFF;
+   }
+   body {
+  background-color:#E6E6FA;
+}
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header" style="padding-left: 100px">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1" >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+            <a class="navbar-brand" href="index.html">Lattitude</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right navbar-collapse" id="myNavbar1">
+            
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="MaxTemperature.html">Max Temperature</a></li>
+                  <li><a href="Humidity.html">Humidity</a></li>
+                  <li><a href="Cloudiness.html">Cloudiness</a></li>
+                  <li><a href="WindSpeed.html">Wind Speed</a></li>
+                  
+              </ul>
+            </li>
+            <li><a href="Comparision.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <h3 style="color:Green"><b>Comparison:Latitude Vs X </b></h3>
+      
+<body>
+<div class="container">
+        <div class="row">
+            <div class="row align-items-start">
+                <div class="col-xs-12 col-md-6">
+                
+                        <h5 style="color:black">Click on any plot to get in-depth analysis </h5>
+                <br></br>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="row align-items-start">
+                             
+                    <div class="col-xs-12 col-md-6">               
+                        <figure>
+
+                        <a href="MaxTemperature.html" target="_self">
+                        <figcaption style="text-align: center;;color:blue">vs. Max Temperature</figcaption>
+                        <img style="float:left;height:75%;width:75%;" src="Fig1.png" alt="Maxtemp"  >
+                         </a>
+                        </figure>
+                        
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                          
+                                                
+                      <figure>  
+                        <a href="Humidity.html" target="_self">
+                            <figcaption style="text-align: center;;color:blue">vs. Humidity</figcaption>
+                            <img style="float:left;height:75%;width:75%;" src="Fig2.png" alt="Humidity"  >
+
+                         </a>
+                        </figure>
+                    </div>
+                        
+                    
+                </div>
+        </div>        
+        <div class="row">
+                <div class="row align-items-start">
+                                 
+                           
+    
+    
+                        <div class="col-xs-12 col-md-6">
+                        <figure>    
+                            <a href="Cloudiness.html" target="_self">
+                                    <figcaption style="text-align: center;;color:blue">vs. Cloudiness</figcaption>
+                            <img style="float:left;height:75%;width:75%;" src="Fig3.png" alt="Comparision"  >
+                             </a>
+                        </figure>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                         <figure>     
+                          
+                          <a href="WindSpeed.html" target="_self">
+                                <figcaption style="text-align: center;;color:blue">vs. WindSpeed</figcaption>
+                              <img style="float:left;height:75%;width:75%;" src="Fig4.png" alt="Windspeed"  >
+                          </a>
+                         </figure> 
+                            
+                        </div>
+                    </div>
+            </div>        
+</div>
+</body>
+</html>
+  

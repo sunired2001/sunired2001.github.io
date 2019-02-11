@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  .navbar-default {
+    background-color: #FFFFFF;
+    color: #ffffff;
+   }
+   .navbar-header {
+    
+    
+    background-color: #00FFFF;
+    color: #FFFFFF;
+   }
+   body {
+  background-color:#E6E6FA;
+}
+</style>
+</head>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header" style="padding-left: 100px">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar1" >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+            <a class="navbar-brand" href="index.html">Lattitude</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right navbar-collapse" id="myNavbar1">
+            
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a href="MaxTemperature.html">Max Temperature</a></li>
+                  <li><a href="Humidity.html">Humidity</a></li>
+                  <li><a href="Cloudiness.html">Cloudiness</a></li>
+                  <li><a href="WindSpeed.html">Wind Speed</a></li>
+                  
+              </ul>
+            </li>
+            <li><a href="Comparision.html">Comparison</a></li>
+            <li><a href="Data.html">Data</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+<body>
+<div class="container">
+        
+    <div class="row">
+        <div class="row align-items-start">
+            <div class="col-md-8 ">
+                <h3 style="color:Green"><b>Humidity</b></h3>
+            </div>
+            <div class="col-md-4 ">
+                <h3 style="color:Green"><b>Visualizations</b></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="row align-items-start">
+            <div class="col-md-8 ">
+                               
+                   
+                    <img  src="Fig2.png" style="height:50%;width:50%;"alt="Humidity"  ></img>
+                    <br></br>
+                    <h5>Humidity do not show a strong correlation to latitude. The visualizations above show a great variety of values at similar latitudes.  </h5>
+              
+              </div>  
+              
+            <div class="col-xs-3 col-md-2">
+              
+              
+                      <img style="float:left;height:75%;width:75%;" src="Fig1.png" alt="Temp"  >
+              
+           </div>
+            <div class="col-xs-3 col-md-2">
+                    
+                            <img style="float:left;height:75%;width:75%;" src="Fig2.png" alt="Lights"  >
+                    
+            </div>
+            <div class="col-xs-3 col-md-2">
+                    
+                            <img style="float:left;height:75%;width:75%;" src="Fig3.png" alt="Lights"  >
+                    
+            </div>
+            <div class="col-xs-3 col-md-2">
+                    
+                            <img style="float:left;height:75%;width:75%;" src="Fig4.png" alt="Lights"  >
+                    
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
+  
